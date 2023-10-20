@@ -1,0 +1,6 @@
+import math
+ugl=float(input("Введите угол "))
+a=math.radians(ugl)
+print("Синус угла",ugl,":",math.sin(a))
+print("Косинус угла",ugl,":",math.cos(a))
+print("Тангенс угла",ugl,":",math.tan(a))
